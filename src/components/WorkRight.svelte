@@ -13,7 +13,6 @@
                 html = converter.makeHtml(data);
             document.getElementById("readmeContent").innerHTML = html;
             document.getElementById("readme").classList.remove("hidden");
-            console.log(data);
         } else {
             throw new Error(data);
         }

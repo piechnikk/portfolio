@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "dr-mario",
-        "description": "A web version of old Atari game dr. Mario created in secondary school",
+        "description": "A web version of old Atari game dr. Mario created in secondary school.",
         "image": "https://user-images.githubusercontent.com/51060535/260466790-1fbb5b6a-4766-43b6-87bd-8313babd7926.png",
         "readme": "https://raw.githubusercontent.com/piechnikk/dr-mario/master/README.md",
         "live": "https://piechnikk.github.io/dr-mario/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "car-rental",
-        "description": "A responsive car rental website created in secondary school",
+        "description": "A responsive car rental website created in secondary school.",
         "image": "https://user-images.githubusercontent.com/51060535/261611567-d72f6c8d-cfc6-4011-b031-cfb0abecb46a.png",
         "readme": "https://raw.githubusercontent.com/piechnikk/car-rental/master/README.md",
         "live": "https://piechnik.ct8.pl/car-rental/"
@@ -22,5 +22,29 @@
         "image": "https://user-images.githubusercontent.com/51060535/261371685-65707bf2-0350-4b48-a597-4f7cc9958156.png",
         "readme": "https://raw.githubusercontent.com/piechnikk/pac-man/master/README.md",
         "live": "https://piechnikk.github.io/pac-man/"
+    },
+    {
+        "id": 4,
+        "title": "webplayer",
+        "description": "A web based music player that plays songs provided by the server created in secondary school.",
+        "image": "https://user-images.githubusercontent.com/51060535/260447295-582d67df-fd0b-4c1a-b974-c78a80270f6a.png",
+        "readme": "https://raw.githubusercontent.com/piechnikk/webplayer/master/README.md",
+        "live": "https://piechnik.ct8.pl/webplayer/"
+    },
+    {
+        "id": 5,
+        "title": "rock-push-game",
+        "description": "A multiplayer logic game created in secondary school.",
+        "image": "https://user-images.githubusercontent.com/51060535/261305400-3cea82c2-6dd4-413e-89f2-4f3396c74f16.png",
+        "readme": "https://raw.githubusercontent.com/piechnikk/rock-push-game/master/README.md",
+        "live": "http://rock-push-game.piechnik.ct8.pl/"
+    },
+    {
+        "id": 6,
+        "title": "cinema",
+        "description": "A simple cinema website created in secondary school.",
+        "image": "https://user-images.githubusercontent.com/51060535/261355457-a52d59ff-851b-4bde-bb5e-8558ac26be3d.png",
+        "readme": "https://raw.githubusercontent.com/piechnikk/cinema/master/README.md",
+        "live": "https://piechnik.ct8.pl/cinema/"
     }
 ]
