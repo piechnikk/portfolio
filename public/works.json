@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "dr-mario",
+        "description": "A web version of old Atari game dr. Mario created in secondary school",
+        "image": "https://user-images.githubusercontent.com/51060535/260466790-1fbb5b6a-4766-43b6-87bd-8313babd7926.png",
+        "readme": "https://github.com/piechnikk/dr-mario/blob/master/README.md",
+        "live": "https://piechnikk.github.io/dr-mario/"
+    },
+    {
+        "id": 2,
+        "title": "car-rental",
+        "description": "A responsive car rental website created in secondary school",
+        "image": "https://user-images.githubusercontent.com/51060535/261611567-d72f6c8d-cfc6-4011-b031-cfb0abecb46a.png",
+        "readme": "https://github.com/piechnikk/car-rental/blob/master/README.md",
+        "live": "https://piechnik.ct8.pl/car-rental/"
+    },
+    {
+        "id": 3,
+        "title": "pac-man",
+        "description": "A pac-man clone created in secondary school.",
+        "image": "https://user-images.githubusercontent.com/51060535/261371685-65707bf2-0350-4b48-a597-4f7cc9958156.png",
+        "readme": "https://github.com/piechnikk/pac-man/blob/master/README.md",
+        "live": "https://piechnikk.github.io/pac-man/"
+    }
+]
