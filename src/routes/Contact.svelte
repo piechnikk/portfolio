@@ -36,12 +36,12 @@
 </script>
 
 <section class="text-gray-400 bg-gray-900 body-font relative">
-    <div class="container px-5 pt-24 m-auto">
+    <div class="container px-5 sm:py-24 pt-12 m-auto">
         <div class="flex flex-col text-center w-full mb-10">
             <h1 class="md:text-6xl sm:text-5xl text-3xl font-medium title-font text-white">CONTACT</h1>
         </div>
     </div>
-    <form on:submit|preventDefault={sendMessage} class="lg:w-1/2 container px-5 py-12 mx-auto flex">
+    <form on:submit|preventDefault={sendMessage} class="lg:w-1/2 container px-5 pb-12 mx-auto flex">
         <div class="bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
             <h2 class="text-white text-lg mb-1 font-medium title-font">Message me</h2>
             <div class="relative mb-4">
