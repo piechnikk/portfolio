@@ -62,3 +62,88 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+#readmeContent h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 1px solid #666;
+}
+
+#readmeContent h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 1px solid #666;
+}
+
+#readmeContent h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+#readmeContent h4 {
+	display: block;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+#readmeContent ul {
+	display: block;
+	list-style: disc outside none;
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+
+#readmeContent li {
+	display: list-item;
+}
+
+#readmeContent p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#readmeContent pre {
+	display: block;
+	font-family: monospace;
+	white-space: pre;
+	margin: 1em 0;
+}
+
+#readmeContent code {
+	font-family: monospace;
+	margin-left: 1em;
+}
+
+#readmeContent>div {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+#readmeContent>div>img {
+	margin-right: 1em;
+}

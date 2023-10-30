@@ -4,6 +4,7 @@
 
 	import Footer from "./components/Footer.svelte";
 	import Header from "./components/Header.svelte";
+	import ReadmeWindow from "./components/ReadmeWindow.svelte";
 	import About from "./routes/About.svelte";
 	import Contact from "./routes/Contact.svelte";
 	import Home from "./routes/Home.svelte";
@@ -14,6 +15,7 @@
 <Tailwindcss />
 <main>
 	<Header />
+	<ReadmeWindow />
 	<Router
 		routes={{
 			"/": Home,

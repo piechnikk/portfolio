@@ -4,6 +4,20 @@
     export let live;
     export let image;
     export let readme;
+
+    async function openReadme(destination) {
+        const res = await fetch(destination);
+        const data = await res.text();
+        if (res.ok) {
+            var converter = new showdown.Converter(),
+                html = converter.makeHtml(data);
+            document.getElementById("readmeContent").innerHTML = html;
+            document.getElementById("readme").classList.remove("hidden");
+            console.log(data);
+        } else {
+            throw new Error(data);
+        }
+    }
 </script>
 
 <section class="text-gray-400 bg-gray-900 body-font">
@@ -14,7 +28,7 @@
             </h1>
             <p class="mb-8 leading-relaxed">{description}</p>
             <div class="flex justify-center">
-                <a href={readme} target="_blank" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Docs</a>
+                <button on:click={() => openReadme(readme)} target="_blank" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Docs</button>
                 <a href={live} target="_blank" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Live</a>
             </div>
         </div>
